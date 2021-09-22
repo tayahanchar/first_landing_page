@@ -4,7 +4,7 @@ html, body, p {
 }
 
 
-p, li, h1, h2 {
+.font {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -28,9 +28,17 @@ p, li, h1, h2 {
     color: white;
 }
 
+.color-gray {
+    color: #433A5E;
+}
+
 .block1 {
     width: 980px;
     margin: auto;
+}
+
+h2 {
+    color: black;
 }
 
 .nav {
@@ -46,7 +54,6 @@ p, li, h1, h2 {
 
 .exp {
     list-style: none;
-    color: #9F99B1;
     margin: 0;
     padding: 0;
 }
@@ -57,4 +64,11 @@ p, li, h1, h2 {
 
 .points {
     list-style-image: url(icon-ok-2.png);
+}
+
+.background-img {
+    background-image: url(credo-bg.png);
+    height: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
