@@ -1,0 +1,60 @@
+html, body, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+p, li, h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bold-txt {
+    font-weight: bold;
+}
+
+.font-size-head {
+    font-size: 32px;
+}
+
+.color-head {
+    color:#00ECBB;
+}
+
+.backgroud-purple {
+    background-color: #6A13EB;
+}
+
+.color-txt {
+    color: white;
+}
+
+.block1 {
+    width: 980px;
+    margin: auto;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.exp {
+    list-style: none;
+    color: #9F99B1;
+    margin: 0;
+    padding: 0;
+}
+
+.achievements {
+    list-style-image: url(icon-ok.png);
+}
+
+.points {
+    list-style-image: url(icon-ok-2.png);
+}
